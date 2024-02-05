@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3e7e7;
+}
+
+.container {
+    text-align: center;
+}
+
+.container>img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 0.5rem 2.5rem;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    
+}
+
+button:hover {
+    background-color: #B7E5B4;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#yesButton{
+    background-color: #B7E5B4;
+    
+}
+
+#noButton{
+    background-color: #D63484;
+}
+
+#anotherGif{
+    display: none;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#anotherGif>h1{
+    margin: 3rem auto;
+}
